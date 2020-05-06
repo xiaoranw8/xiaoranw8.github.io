@@ -26,22 +26,26 @@ Skills used: R, Possion regression model
 ---
 
 
-### Machine Learning with Python
+### Machine Learning with Python & Web Application in Javascript
 
 [Taxi Data Analysis in New York City](https://xinyimsumyee.github.io/tanalyxi/)<br/>
 The analysis report is about manhattan taxi demand and supply distributions in. Presenting the taxi pattern in maps, interactive dashboards, and statistical graphs to provide the general pattern of taxi movements. Planning routing for taxi drivers by network analysis.<br/>
 Skills used: Python, Data visualizaiton (Dash, Panel, Foilum), Clustering analysis and Random forest ML model by Scikit-learn, GitHub Pages 
 <img src="images/taxi.jpg?raw=true"/>
 
+---
+
+[EuroSAT Land Use and Land Cover Classification using Deep Learning](https://drive.google.com/file/d/1DdgQhLryrquVw9WmXliKnpikwFXm6duj/view?usp=sharing)<br/>
+The project implements deep learning models to solve land use identification problem in satellite imaging using a benchmark dataset.<br/>
+Skills used: Python, Keras, Artificial Neural Network, Convolutional Neural Network
+<img src="images/DL.png?raw=true"/>
 
 ---
 
-
-### ArcGIS Projects and Visualizations 
-
-
-[Urban Growth and Environmental Sustainability Analysis](/MyProject/Urban_Growth_Environmental_Protection.pdf)
-<img src="images/urbandevelop.jpg?raw=true"/>
+[Philly Grocery Location Dashboard (in progress)](/MyProject/musa-611-midterm/midterm/index.html)<br/>
+The interactive web dashboard shows the grocery locations in Philadelphia with a primary target to explore the grocery distribution across the city.<br/>
+Skills used: JavaScript, HTML, CSS, Leaflet
+<img src="images/locator.gif?raw=true"/>
 
 ---
 
@@ -51,8 +55,23 @@ Skills used: Python
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
-[Lancaster County Urban Growth](/MyProject/LancasterCountyUrbanGrowthProject.pdf)s
-<img src="images/urbanidx.jpg?raw=true"/>
+
+
+### ArcGIS Projects
+
+[ArcMap Script Tool Development](/MyProject/ArcMapToolSummarize.pdf)<br/>
+[ArcGIS Pro Stylization Tool Development](/MyProject/UsersManual.pdf)<br/>
+Skills used: Python, C#, ArcGIS Pro SDK, ArcMap
+
+
+---
+[Locating Affordable Grocery Business in Philadelphia](/MyProject/Wang,Xiaoran11.pdf)<br/>
+<img src="images/capstone.jpg?raw=true"/>
+
+---
+
+[Lancaster County Urban Growths](/MyProject/LancasterCountyUrbanGrowthProject.pdf)
+<img src="images/urbandevelop.jpg?raw=true"/>
 
 ---
 
