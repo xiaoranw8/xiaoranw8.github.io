@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css_midterm/leaflet.css" />
+    <link rel="stylesheet" href="css_midterm/MarkerCluster.css" />
+    <link rel="stylesheet" href="css_midterm/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css_midterm/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1 id="intro">Philly Grocery Landscape</h1>
+      <p id="description">This application shows the grocery locations in Philadelphia with a
+        primary target to explore the grocery distribution across the city. It would be an auxiliary tool
+        to measure food accessibility or site selection for the new grocery business.
+        The map includes both supermarkets and farmers' markets. Later slides will show the pattern
+        at different spatial scales. <br>
+    </br>To get more information about exact locations, click on the markers on the map.</p>
+      <p id="extraDescription"></p>
+      <!-- <div id="results" style="display: none;">
+        <p>The neighborhood is <span id="hoodsName">, and the total grocery location in <span id="hoodsName"> is
+        <span class="count">. </p>
+      </div> -->
+
+      <button id="nextButton">NEXT</button>
+      <button id="backButton">BACK</button>
+    </div>
+
+    <!-- Map -->
+    <div id="map" class="map">
+    </div>
+    <div class="legend" style="display: none;">
+      <div class='legend-title'>Grocery Location Counts</div>
+      <div class='legend-scale'>
+        <ul class='legend-labels'>
+          <li><span style='background:#ffffaa;'></span>&nbsp;&nbsp;&nbsp;&nbsp;0</li>
+          <li><span style='background:#a2ccc2;'></span>&nbsp;&nbsp;&nbsp;&nbsp;1</li>
+          <li><span style='background:#6f93b2;'></span>&nbsp;&nbsp;&nbsp;&nbsp;2</li>
+          <li><span style='background:#425d9b;'></span>&nbsp;&nbsp;&nbsp;&nbsp;3</li>
+          <li><span style='background:#002a7f;'></span>&nbsp;&nbsp;&nbsp;&nbsp;>3</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Javascript Imports -->
+    <script src="js_midterm/jquery-2.2.0.js"></script>
+    <script src="js_midterm/underscore.js"></script>
+    <script src="js_midterm/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+    <script src="js_midterm/slideModel.js"></script>
+<!--    <script src="js_midterm/midtermFunctions.js"></script> -->
+
+  </body>
+</html>

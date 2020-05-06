@@ -42,7 +42,7 @@ Skills used: Python, Keras, Artificial Neural Network, Convolutional Neural Netw
 
 ---
 
-[Philly Grocery Location Dashboard (in progress)](/MyProject/musa-611-midterm/midterm/index.html)<br/>
+[Philly Grocery Location Dashboard (in progress)](midterm/index.html)<br/>
 The interactive web dashboard shows the grocery locations in Philadelphia with a primary target to explore the grocery distribution across the city.<br/>
 Skills used: JavaScript, HTML, CSS, Leaflet
 <img src="images/locator.gif?raw=true"/>
