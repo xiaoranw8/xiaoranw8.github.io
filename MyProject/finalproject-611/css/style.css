@@ -1,0 +1,251 @@
+body {
+    padding: 0;
+    overflow: hidden;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+
+.sidebar {
+    position: absolute;
+    background-color: rgba(238, 245, 243, 0.7);
+    left: 50px;
+    width: 420px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+}
+
+.helperContainer {
+    font-size: 28px;
+    width:47%;
+    text-align: center;
+}
+
+#helperTitle{
+  float: left;
+}
+
+#helperIcon{
+  float:right;
+}
+
+.fa-info-circle {
+  color: #ACCDC6;
+}
+
+#modes {
+  position: absolute;
+  left: 20px;
+  top: 230px;
+  width: 330px;
+  height: 40px
+}
+
+#duration {
+  position: absolute;
+  left: 20px;
+  top: 280px;
+  width: 330px;
+  height: 40px
+}
+
+
+#area{
+  position:fixed;
+  left: 70px;
+  top: 335px;
+  color: white;
+  font-size: 18px;
+  background-color: #5EB8C3;
+  border-radius: 5px;
+}
+
+.message{
+  position:fixed;
+  left: 75px;
+  top: 390px;
+  color: #7DB060;
+}
+.thename{
+  position:fixed;
+  left: 80px;
+  top: 390px;
+  color: #7DB060;
+  font-size: 18px;
+}
+
+table{
+  text-align:left;
+  position:fixed;
+  left: 70px;
+  top: 420px;
+  width: 370px;
+  font-size: 15px;
+  color: #008080
+}
+
+td{
+  word-wrap:break-word;
+}
+
+
+.userContainer{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+
+#geolocate{
+  width: 300px;
+}
+
+
+.map {
+    position: absolute;
+    /* right: 0px;
+    left: 400px; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+
+#legend {
+     position:absolute;
+     right: 50px;
+     bottom: 80px;
+     border-radius: 10px;
+     background-color: rgba(238, 245, 243, 0.7);
+     display: block;
+     color: #494949;
+     font-family:sans-serif;
+     text-align:left;
+     width:250px;
+     height: 100px;
+     font-size: 15px;
+     margin-top:10px;
+   }
+   ul{
+     padding:0;
+     margin-left:10px;
+     margin-right:0px;
+   }
+   li {
+     font-family:sans-serif;
+     font-size: 14px;
+     list-style-type: none;
+     margin-top:10px;
+     margin-bottom:10px;
+     vertical-align:middle;
+     padding-right:50px;
+     padding-left:30px;
+   }
+ .header {
+   margin: 1px 1px 1px 1px;
+   text-align: center;
+   font-weight:bold;
+ }
+ .circle {
+   position:relative;
+   border-radius: 50%;
+   width: 15px;
+   height: 15px;
+   float:left;
+ }
+
+
+h2{
+  position: relative;
+  top: 33px;
+  left: 45px;
+}
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left: 250px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ADE3EA;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ADE3EA;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+#introModal{
+  position: absolute;
+  top: 20px;
+  right: 90px;
+  border-radius: 5px;
+  overflow: auto;
+  overflow-y: auto;
+}
+
+.modal-content{
+    background-color:rgba(239, 244, 244, 0.9);
+}
+
+#myModalLabel{
+  font-family:Segoe UI Black;
+  font-size:15px;
+}
+
+
+
+/* legend reference: https://gist.github.com/datapolitan/47bc614cd271ade28fa7 */
+/* side bar solution: https://stackoverflow.com/questions/45124418/i-am-having-a-difficult-time-putting-my-sidebar-next-to-my-google-maps-gmaps4r */
