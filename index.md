@@ -45,13 +45,13 @@ Skills used: Python, Keras, Artificial Neural Network, Convolutional Neural Netw
 [Philly Grocery Locations Dashboard (in progress)](/MyProject/finalproject-611/index.html)<br/>
 The interactive web dashboard shows the grocery locations in Philadelphia with a primary target to explore the grocery distribution across the city. Users can use it to explore the accessibility to grocery locations<br/>
 Skills used: JavaScript, HTML, CSS, Mapbox, Turf
-<img src="images/locator.gif?raw=true"/>
+<img src="images/finalprojectImg.gif?raw=true"/>
 
 ---
 
 **Visualize Philadelphia Crime Incidents**<br/> 
 What time of day Philly has the heightest crime rate?<br/> 
-Skills used: Python 
+Skills used: Python <br/>
 <img src="/MyProject/philly_crime.gif?raw=true"/>
 
 ---
