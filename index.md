@@ -93,7 +93,7 @@ The program loads the OSU buildings and pavement GIS data from shapefiles and cr
 ---
 
 ### Photo Work
-[8gL Clothing Lookbook](https://www.8gl.store/lookbook)
+[8gL Clothing Lookbook](https://www.instagram.com/8gl.co/)
 <img src="images/lookbook.jpg?raw=true"/>
 
 
