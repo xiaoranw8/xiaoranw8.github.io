@@ -28,7 +28,7 @@ Identifying slum areas in the city of Buenos Aires with multi-approach. <br/>
 Skill used: Python, Machine Learning (Scikit-learn), K-Means, SVM, Deep Learning (Keras), Convolutional Neural Network, ResNet
 <img src="images/slumproject.jpg?raw=true"/>
 
----
+
 [Taxi Data Analysis in New York City](https://xinyimsumyee.github.io/tanalyxi/)<br/>
 Exploratory analysis and predictive model for taxi demand and supply in Manhattan, New York City.<br/>
 Skills used: Python, Data visualizaiton (Dash, Panel, Foilum), Clustering analysis and Random forest ML model by Scikit-learn, GitHub Pages 
@@ -82,7 +82,6 @@ Skills used: Python, C#, ArcGIS Pro SDK, ArcMap
 Skills used: Google Earth Engine, JavaScript
 <img src="images/gee.jpg?raw=true"/>
 
----
 
 **Agent-based Spatial Pattern Modeling for Random motion and Biased Random Motion** <br/>
 The program loads the OSU buildings and pavement GIS data from shapefiles and create NetLogo patches correspondingly. The model picks up a random building as a target for student movement and then generates up to 200 students at buildings (green patches). Student motion can be either random or biased. When the motion is set to be random, a student moves ahead if the patch ahead of him is feasible (the patch exists in the NetLogo world and corresponds to building or pavement), or makes a random left turn if not. When the motion is set to be biased, a student faces towards the target building after every successful move.
